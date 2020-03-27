@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+body {
+  font-family: 'Monserrat', sans-serif;
+  background: #f6f5f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+
+.calendar-container {
+  border-radius: 25px;
+  background-color: white;
+  height: 60vh;
+  width: 60vh;
+  opacity: 1;
+  margin: auto;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.calendar-container form {
+  background: #f6f5f7;
+  height: 20%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-top: 25px;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 25px;
+}
+
+.calendar-container form label {
+  padding-left: 15px;
+}
+
+.calendar-container form .form-control {
+  width: 145px;
+  padding: 5px 10px;
+  margin-right: 11px;
+}
+
+.calendar-header {
+  text-align: center;
+}
+
+.calendar {
+  height: 100%;
+  width: 100%;
+}
+
+i {
+  padding-top: 10px;
+}
+
+td {
+  padding-bottom: 0px;
+}
+
+.day {
+  text-align: center;
+  width: 60px;
+}
+
+.day:hover {
+  background-color: #70e1f5;
+  border-radius: 100%;
+  max-height: 83%;
+  max-width: 10px;
+}
+
+.week-day {
+  height: 35px;
+}
+
+.day.start-date, .day.end-date {
+  background-color: #70e1f5;
+  border-radius: 100%;
+  max-height: 10px;
+  max-width: 10px;
+}
+
+form {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 60px;
+  height: 100%;
+  text-align: center;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 0px;
+  margin: 8px;
+  width: 100%;
+}
+/*# sourceMappingURL=calendar.css.map */

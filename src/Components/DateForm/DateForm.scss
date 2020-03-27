@@ -1,0 +1,13 @@
+@import '../_config.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+form {
+  background: blue;
+  height: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+input {
+  text-align: center;
+}

@@ -1,0 +1,103 @@
+@import '../_config.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+  font-family: 'Monserrat', sans-serif;
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+
+.calendar-container {
+  border-radius: 25px;
+  background-color: white;
+  height: 60vh;
+  width: 60vh;
+  opacity: 1;
+  margin: auto;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+  form {
+    background: $primary-color;
+    height: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 25px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 25px;
+
+    label {
+      padding-left: 15px;
+    }
+
+    .form-control {
+      width: 145px;
+      padding: 5px 10px;
+      margin-right: 11px;
+    }
+  }
+}
+
+.calendar-header {
+  text-align: center;
+}
+
+.calendar {
+  height: 100%;
+  width: 100%;
+}
+
+i {
+  padding-top: 10px;
+}
+
+td {
+  padding-bottom: 0px;
+}
+
+.day {
+  &:hover {
+    background-color: #70e1f5;
+    border-radius: 100%;
+    max-height: 83%;
+    max-width: 10px;
+  }
+  text-align: center;
+  width: 60px;
+}
+
+.week-day {
+  height: 35px;
+}
+
+.day.start-date, .day.end-date {
+  background-color: #70e1f5;
+  border-radius: 100%;
+  max-height: 10px;
+  max-width: 10px;
+}
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 60px;
+	height: 100%;
+	text-align: center;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+  padding: 12px 0px;
+  margin: 8px;
+	width: 100%;
+}
+
