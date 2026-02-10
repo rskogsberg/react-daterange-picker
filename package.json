@@ -10,7 +10,7 @@
     "moment-range": "^4.0.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "sass": "^1.26.3"
   },
   "scripts": {
